@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+
+#Skalar
+$string = "Perl";
+
+#Arrays 
+@skillNames = ( "Perl", "Python", 5, 3);
+
+#Hashes
+
+%skillExp = ( "Perl" => 5,
+	      Python => 2);
+	      
+print "$string\n@skillNames\n", %skillExp,"\n";
