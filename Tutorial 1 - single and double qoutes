@@ -1,0 +1,19 @@
+#!/usr/bin/perl
+
+
+$skill    ="Perl";
+$skillName = '$skill';   #in single qoutes it looses the variable skill looses the actual meaning and interpretated as chararachters.
+print $skillName,"\n";
+
+
+print "now we going to see how it looks like if you put double qoutes arround $skill variable", "\n"
+
+#new script
+
+#!/usr/bin/perl
+
+
+$skill    ="Perl";
+$skillName = "$skill";   #now an example in double qoutes of variable $skill.
+print $skillName,"\n";
+
