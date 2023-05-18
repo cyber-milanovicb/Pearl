@@ -1,0 +1,22 @@
+#/bin/usr/perl
+
+use strict;
+use warnings;
+
+my $doc = <<"DOC";
+This program illustrates commenting, and how we can spell Perl with reverse command and on one more way
+DOC
+
+print $doc,"\n";
+
+my $str = "Perl";
+my $rev = reverse($str);
+
+print "$rev\n";
+
+my @arr = split("", $str);
+
+for(my $i=$#arr;$i>=0;$i--){
+	print "$arr[$i] ";
+}
+print "\n";
